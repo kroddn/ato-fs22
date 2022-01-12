@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map width="8192" height="8192" imageFilename="overview.png"  mapFieldColor="0.1500 0.1195 0.0953" mapGrassFieldColor="0.1470 0.1441 0.0823">
+    <filename>maps/yukon_valley.i3d</filename>
+    <vertexBufferMemoryUsage>0</vertexBufferMemoryUsage>
+    <indexBufferMemoryUsage>0</indexBufferMemoryUsage>
+    <textureMemoryUsage>0</textureMemoryUsage>
+
+    <culling xzOffset="100" />
+    <densityMap revision="1" />
+    <terrainLodTexture revision="1" />
+    <splitShapes revision="1" />
+    <tipCollision revision="1" />
+    <placementCollision revision="1" />
+    <navigationCollision revision="1" />
+
+    <shop filename="$data/store/ui/shop.xml" />
+    <storeItems filename="maps/xml/storeItems.xml" />
+
+    <sounds filename="maps/sounds/yukonSounds.xml" />
+    <environment filename="maps/xml/environment.xml" />
+    <growth filename="$data/maps/maps_growth.xml" />
+    <weed filename="$data/maps/mapFR/weed.xml" />
+	<fieldGround filename="maps/xml/fieldGround.xml" />
+    <farmlands filename="maps/xml/farmlands.xml" />
+	<fillTypes filename="maps/xml/maps_fillTypes.xml" />
+	<fruitTypes filename="maps/xml/maps_fruitTypes.xml" />
+	<densityMapHeightTypes filename="maps/xml/maps_densityMapHeightTypes.xml" />
+	<treeTypes filename="maps/xml/maps_treeTypes.xml" />
+	<sprayTypes filename="maps/xml/maps_sprayTypes.xml" />
+	
+
+    <animals filename="$dataS/character/animals.xml">
+        <names filename="$dataS/character/animalNames.xml" />
+        <food filename="$dataS/character/animalFood.xml" />
+    </animals>
+    <wildlife filename="$dataS/character/wildlifeSpawner.xml" />
+    <npcs filename="maps/xml/npcs.xml" />
+	
+	<missionVehicles filename="$dataS/missionVehicles.xml" />
+	
+	<helpline filename="$dataS/helpLine.xml">
+        <trigger position="665 65 434"  categoryIndex="2" pageIndex="2" /> <!-- improving yield -->
+        <trigger position="608 65 472"  categoryIndex="8" pageIndex="2" /> <!-- build mode -->
+        <trigger position="-225 69.2 221" categoryIndex="6" pageIndex="1" /> <!-- animals -->
+        <trigger position="622 65 110"    categoryIndex="1" pageIndex="2" /> <!-- shop -->
+        <trigger position="-669 131.2 -559" categoryIndex="4" pageIndex="7" /> <!-- grape -->
+    </helpline>
+	
+	<gameplayHints filename="$dataS/gameplayHints.xml" />
+
+    <licensePlates filename="maps/licensePlates/licensePlatesUS.xml" />
+	
+	<collectibles filename="maps/xml/collectibles.xml" />
+    
+    <hotspots>
+        <placeableHotspot type="SHOP"             text="$l10n_vehicle_shop" worldPosition="844.925 818.956"      teleportWorldPosition="845.405 79.401 817.988" />
+		<placeableHotspot type="PRODUCTION_POINT" text="Dirt Mine"          worldPosition="3118.547 -2620.901"   teleportWorldPosition="3118.547 205.335 -2620.901" />
+		<placeableHotspot type="PRODUCTION_POINT" text="Dirt Mine"          worldPosition="3789.188 -494.684"    teleportWorldPosition="3789.188 113.972 -494.684" />
+		<placeableHotspot type="PRODUCTION_POINT" text="Dirt Mine"          worldPosition="-2955.011 -2727.977"  teleportWorldPosition="-2955.011 90.672 -2727.977" />
+		<placeableHotspot type="PRODUCTION_POINT" text="Flood Farm"         worldPosition="-240.686 -196.878"    teleportWorldPosition="-240.686 80.976 -196.878" />
+		<placeableHotspot type="PRODUCTION_POINT" text="Pleasant Farm"      worldPosition="-2919.688 -1162.766"  teleportWorldPosition="-2919.688 88.478 -1162.766" />
+		<placeableHotspot type="PRODUCTION_POINT" text="Misty Meadow Farm"  worldPosition="826.803 2265.159"     teleportWorldPosition="826.803 88.525 2265.159" />
+		<placeableHotspot type="PRODUCTION_POINT" text="Oak Island Farm"    worldPosition="42.201 -2827.842"     teleportWorldPosition="42.201 79.635 -2827.842" />
+		<placeableHotspot type="PRODUCTION_POINT" text="Mountain View Farm" worldPosition="682.613 -1310.347"    teleportWorldPosition="682.613 80.902 -1310.347" />
+		<placeableHotspot type="PRODUCTION_POINT" text="Rivers Bend Farm"   worldPosition="3399.185 -1532.277"   teleportWorldPosition="3399.185 82.013 -1532.277" />
+		<placeableHotspot type="PRODUCTION_POINT" text="Caverly Farm"       worldPosition="1991.067 -961.573"    teleportWorldPosition="1991.067 88.651 -961.573" />
+		<placeableHotspot type="PRODUCTION_POINT" text="Limestone Mine"     worldPosition="3703.773 -2569.574"   teleportWorldPosition="3703.773 125 -2569.574" />
+		<placeableHotspot type="PRODUCTION_POINT" text="Coal Ridge"         worldPosition="-2269.314 1501.452"   teleportWorldPosition="-2269.314 129.787 1501.452" />
+		<placeableHotspot type="PRODUCTION_POINT" text="Sand Bar"           worldPosition="-1345.052 -1734.838"  teleportWorldPosition="-1345.052 80.297 -1734.838" />
+		<placeableHotspot type="PRODUCTION_POINT" text="North Sandy Point"  worldPosition="-2643.629 -2987.731"  teleportWorldPosition="-2643.629 80.280 -2987.731" />
+    </hotspots>
+
+    <!-- <competitiveMultiplayer filename="$data/maps/mapFR/competitiveMultiplayer.xml" /> -->
+    <!-- <fillTypes filename="$data/maps/mapFR/maps_fillTypes.xml" /> -->
+    <!-- <sprayTypes filename="$data/maps/mapFR/maps_sprayTypes.xml" /> -->
+    <!-- <fruitTypes filename="$data/maps/mapFR/maps_fruitTypes.xml" /> -->
+    <!-- <treeTypes filename="$data/maps/mapFR/maps_treeTypes.xml" /> -->
+    <!-- <densityMapHeightTypes filename="$data/maps/mapFR/maps_densityMapHeightTypes.xml" /> -->
+
+    <motionPathEffects filename="$data/effects/motionPathEffects.xml"/>
+    <bales filename="maps/xml/maps_bales.xml"/>
+
+    <additionalFiles>
+        <additionalFile filename="$data/shared/materialHolders/tensionBeltMaterialHolder.i3d" />
+        <additionalFile filename="$data/shared/materialHolders/tireTrackMaterialHolder.i3d" />
+        <additionalFile filename="$data/shared/mapTargetMarker.i3d" />
+        <additionalFile filename="$data/fillPlanes/fillPlane_materialHolder.i3d" />
+        <additionalFile filename="$data/effects/effects.xml" />
+    </additionalFiles>
+
+    <!-- add all foliage layers that are not fruits. You need to define these foliage layers to be able to remove them with a cultivator or plow -->
+    <decoFoliages>
+        <decoFoliage layerName="decoFoliage" startChannel="0" numChannels="4" mowable="true"/>
+        <decoFoliage layerName="decoForest" startChannel="0" numChannels="4" mowable="true"/>
+        <decoFoliage layerName="decoBush" startChannel="0" numChannels="4" />
+		<decoFoliage layerName="groundFoliage" startChannel="0" numChannels="14" />
+		
+
+        <mapping name="grassShort" layerName="decoFoliage" state="1" />
+    </decoFoliages>
+
+    <paintableFoliages>
+        <paintableFoliage layerName="grass" startChannel="0" numStateChannels="4" />
+        <paintableFoliage layerName="meadow" startChannel="0" numStateChannels="4" />
+        <paintableFoliage layerName="decoBush" startChannel="0" numStateChannels="4" />
+        <paintableFoliage layerName="decoFoliage" startChannel="0" numStateChannels="4" />
+		<paintableFoliage layerName="groundFoliage" startChannel="0" numChannels="14" />
+    </paintableFoliages>
+
+
+    <!-- paintable ground types - need to be defined in map.i3d node TerrainTransformGroup|CombinedLayer -->
+     <groundTypeMappings>
+    <!-- Base -->
+        <groundTypeMapping type="dirt"           title="$l10n_groundType_dirt" layer="DIRT" />
+    <!-- Standard -->
+        <groundTypeMapping type="asphalt"        title="$l10n_groundType_asphalt" layer="ASPHALT" />
+        <groundTypeMapping type="gravel"         title="$l10n_groundType_gravel" layer="GRAVEL" />
+        <groundTypeMapping type="grass"          title="$l10n_groundType_grass" layer="GRASS" />
+        <groundTypeMapping type="animalMud"      title="$l10n_groundType_animalMud" layer="MUD_ANIMAL" />
+        <groundTypeMapping type="concrete"       title="$l10n_groundType_concrete" layer="CONCRETE" />
+    <!-- Special -->
+        <groundTypeMapping type="forestGround"   title="$l10n_groundType_forestGround" layer="FOREST_NEEDLES" />
+        <groundTypeMapping type="grass_dry"      title="$l10n_groundType_grassDry" layer="GRASS_DIRT" />
+        <groundTypeMapping type="rock"           title="$l10n_groundType_rock" layer="ROCK" />
+        <groundTypeMapping type="rock_granite"   title="$l10n_groundType_rockGranite" layer="ROCK_DARK" />
+    </groundTypeMappings>
+</map>

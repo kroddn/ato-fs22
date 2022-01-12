@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Sample Mod Map 1" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="9.0.2"/>
+  </Asset>
+
+  <Files>
+    <File fileId="5" filename="$data/shaders/vehicleShader.xml"/>
+    <File fileId="9" filename="../textures/cliffRockDE01_diffuse.dds"/>
+    <File fileId="10" filename="../textures/rocksSet01_normal.png"/>
+    <File fileId="11" filename="../textures/rocksSet01_specular.png"/>
+    <File fileId="3" filename="../textures/default_normal.dds"/>
+    <File fileId="4" filename="../textures/dirt.dds"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="default" materialId="5" diffuseColor="0.294118 0.294118 0.294118 1" customShaderId="5" customShaderVariation="colorMask">
+      <Normalmap fileId="3"/>
+      <Glossmap fileId="4"/>
+      <CustomParameter name="RDT" value="1 1 0 0"/>
+      <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+      <CustomParameter name="colorMat0" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat1" value="1 0.1 0.1 1"/>
+      <CustomParameter name="colorMat2" value="0.1 1 0.1 1"/>
+      <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+      <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+      <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+      <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+      <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+    </Material>
+    <Material name="lambert1" materialId="6" diffuseColor="0.494118 0.494118 0.494118 1">
+    </Material>
+    <Material name="rocksSet01_mat" materialId="125">
+      <Texture fileId="9"/>
+      <Normalmap fileId="10"/>
+      <Glossmap fileId="11"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="streamSluice.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+      <TransformGroup name="streamSluice" nodeId="36">
+        <TransformGroup name="clearAreas" nodeId="93">
+          <TransformGroup name="clearArea1Start" nodeId="94">
+            <TransformGroup name="clearArea1Width" nodeId="95"/>
+            <TransformGroup name="clearArea1Height" nodeId="96"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="levelAreaStart" nodeId="97">
+          <TransformGroup name="levelAreaWidth" nodeId="98"/>
+          <TransformGroup name="levelAreaHeight" nodeId="99"/>
+        </TransformGroup>
+        <TransformGroup name="indoorArea1Start" nodeId="100">
+          <TransformGroup name="indoorArea1Width" nodeId="101"/>
+          <TransformGroup name="indoorArea1Height" nodeId="102"/>
+        </TransformGroup>
+        <Shape shapeId="1" name="infoTrigger" translation="-4.273 0.0235298 -1.72862" visibility="false" static="true" trigger="true" collisionMask="1048576" nodeId="103" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        <TransformGroup name="tipOcclusionUpdateAreas" nodeId="104">
+          <TransformGroup name="tipOcclusionUpdateArea1Start" nodeId="105">
+            <TransformGroup name="tipOcclusionUpdateArea1End" nodeId="106"/>
+          </TransformGroup>
+          <TransformGroup name="tipOcclusionUpdateArea2Start" nodeId="107">
+            <TransformGroup name="tipOcclusionUpdateArea2End" nodeId="108"/>
+          </TransformGroup>
+        </TransformGroup>
+        <TransformGroup name="collisions" nodeId="109">
+          <Shape shapeId="2" name="tipCol" visibility="false" static="true" collisionMask="524288" density="0.0001" nodeId="110" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true"/>
+        </TransformGroup>
+        <TransformGroup name="sellingStation" nodeId="111">
+          <Shape shapeId="3" name="unloadTrigger" translation="-0.965562 0.0432229 0.512552" rotation="0 -26.4882 0" static="true" trigger="true" collisionMask="1073741824" nodeId="112" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <TransformGroup name="grainGateLinkNode" rotation="-0 90 0" nodeId="113"/>
+            <TransformGroup name="unloadTriggerMarker" static="true" collisionMask="1073742079" nodeId="114"/>
+          </Shape>
+          <TransformGroup name="teleportNode" translation="0 0 -12.47" nodeId="115"/>
+          <TransformGroup name="aiNode" translation="-1.04306e-06 -1.04306e-06 -11.9313" rotation="180 -5.00896e-06 180" nodeId="116"/>
+        </TransformGroup>
+        <TransformGroup name="productionPoint" nodeId="117">
+          <Shape shapeId="4" name="playerTrigger" translation="3.1362 0 -2.11018" static="true" trigger="true" collisionMask="3145728" clipDistance="600" nodeId="118" materialIds="6" castsShadows="true" receiveShadows="true" nonRenderable="true">
+            <TransformGroup name="playerTriggerMarker" translation="-5.425 0 -1.526" nodeId="119"/>
+          </Shape>
+        </TransformGroup>
+        <TransformGroup name="palletSpawner" nodeId="120">
+          <TransformGroup name="spawnSpace1start" translation="-2.44201 0.0315304 -11.5078" rotation="0 -27 0" nodeId="121">
+            <TransformGroup name="spawnSpace1end" translation="8 0 0" nodeId="122"/>
+          </TransformGroup>
+          <TransformGroup name="spawnSpace2start" translation="-2.26402 0 -8.29401" rotation="0 -27 0" nodeId="123">
+            <TransformGroup name="spawnSpace2end" translation="8 0 0" nodeId="124"/>
+          </TransformGroup>
+        </TransformGroup>
+        <Shape shapeId="5" name="slueceBox" static="true" nodeId="86" materialIds="5" castsShadows="true" receiveShadows="true">
+          <Shape shapeId="6" name="rock05" translation="-0.415493 -0.011987 -0.243177" rotation="109.499 27.5707 -161.499" static="true" clipDistance="300" nodeId="128" materialIds="125" castsShadows="true" receiveShadows="true"/>
+          <Shape shapeId="6" name="rock05" translation="1.47869 -0.822986 -4.0456" rotation="99.3858 25.6687 -164.562" static="true" clipDistance="300" nodeId="129" materialIds="125" castsShadows="true" receiveShadows="true"/>
+        </Shape>
+        <Camera name="gui_camera" translation="1.82469 5.0107 1.39919" rotation="-40.795 53.4685 -1.29981e-06" nodeId="71" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
+      </TransformGroup>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="36">
+      <Attribute name="farmlandId" type="integer" value="40"/>
+      <Attribute name="indexName" type="string" value="STREAMSLUICE2"/>
+      <Attribute name="onCreate" type="scriptCallback" value="GC_ProductionFactory.onCreate"/>
+      <Attribute name="xmlFile" type="string" value="maps/placeables/goldprocessor/streamSluice2.xml"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>

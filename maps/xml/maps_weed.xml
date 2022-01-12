@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../shared/xml/schema/weed.xsd">
+    <weed name="weed" title="$l10n_fillType_weed">
+        <general firstChannel="0" numChannels="4" />
+        <mapColors default="0.5210 0.2329 0.3862 1" colorBlind="0.0409 0.0409 0.0409 1"/>
+
+        <states>
+            <sparseStart value="1" />
+            <denseStart value="2" />
+        </states>
+
+        <factors>
+            <factor state="3" value="0.5" />
+            <factor state="4" value="0.75" />
+            <factor state="5" value="1.0" />
+            <factor state="6" value="0.5" />
+            <factor state="8" value="0.5" />
+            <factor state="9" value="0.75" />
+        </factors>
+
+        <growth>
+            <update sourceState="1" targetState="3" />
+            <update sourceState="2" targetState="4" />
+            <update sourceState="3" targetState="4" />
+            <update sourceState="4" targetState="5" />
+        </growth>
+    </weed>
+
+    <replacements>
+        <herbicide>
+            <replacements>
+                <replacement sourceState="1" targetState="0" /> <!-- preventative -->
+                <replacement sourceState="2" targetState="0" /> <!-- preventative -->
+                <replacement sourceState="3" targetState="7" />
+                <replacement sourceState="4" targetState="8" />
+                <replacement sourceState="5" targetState="9" />
+                <replacement sourceState="6" targetState="7" />
+            </replacements>
+
+            <replacements fruitType="GRAPE">
+                <replacement sourceState="3" targetState="2" />
+                <replacement sourceState="5" targetState="4" />
+                <replacement sourceState="7" targetState="6" />
+                <replacement sourceState="9" targetState="8" />
+            </replacements>
+            <replacements fruitType="OLIVE">
+                <replacement sourceState="2" targetState="1" />
+                <replacement sourceState="4" targetState="3" />
+                <replacement sourceState="6" targetState="5" />
+                <replacement sourceState="8" targetState="7" />
+            </replacements>
+        </herbicide>
+
+        <weeder>
+            <replacements>
+                <replacement sourceState="1" targetState="0" />
+                <replacement sourceState="2" targetState="0" />
+                <replacement sourceState="3" targetState="0" />
+                <replacement sourceState="4" targetState="6" />
+            </replacements>
+
+            <replacements fruitType="GRAPE">
+                <replacement sourceState="3" targetState="2" />
+                <replacement sourceState="5" targetState="4" />
+                <replacement sourceState="7" targetState="6" />
+                <replacement sourceState="9" targetState="8" />
+            </replacements>
+            <replacements fruitType="OLIVE">
+                <replacement sourceState="2" targetState="1" />
+                <replacement sourceState="4" targetState="3" />
+                <replacement sourceState="6" targetState="5" />
+                <replacement sourceState="8" targetState="7" />
+            </replacements>
+        </weeder>
+
+        <weederHoe>
+            <replacements>
+                <replacement sourceState="1" targetState="0" />
+                <replacement sourceState="2" targetState="0" />
+                <replacement sourceState="3" targetState="0" />
+                <replacement sourceState="4" targetState="0" />
+                <replacement sourceState="6" targetState="0" />
+            </replacements>
+
+            <replacements fruitType="GRAPE">
+                <replacement sourceState="3" targetState="2" />
+                <replacement sourceState="5" targetState="4" />
+                <replacement sourceState="7" targetState="6" />
+                <replacement sourceState="9" targetState="8" />
+            </replacements>
+            <replacements fruitType="OLIVE">
+                <replacement sourceState="2" targetState="1" />
+                <replacement sourceState="4" targetState="3" />
+                <replacement sourceState="6" targetState="5" />
+                <replacement sourceState="8" targetState="7" />
+            </replacements>
+        </weederHoe>
+
+        <mulcher>
+            <replacements>
+                <replacement sourceState="3" targetState="0" />
+                <replacement sourceState="4" targetState="0" />
+                <replacement sourceState="5" targetState="0" />
+                <replacement sourceState="6" targetState="0" />
+                <replacement sourceState="7" targetState="0" />
+                <replacement sourceState="8" targetState="0" />
+                <replacement sourceState="9" targetState="0" />
+            </replacements>
+
+            <replacements fruitType="GRAPE">
+                <replacement sourceState="3" targetState="2" />
+                <replacement sourceState="5" targetState="4" />
+                <replacement sourceState="7" targetState="6" />
+                <replacement sourceState="9" targetState="8" />
+            </replacements>
+            <replacements fruitType="OLIVE">
+                <replacement sourceState="2" targetState="1" />
+                <replacement sourceState="4" targetState="3" />
+                <replacement sourceState="6" targetState="5" />
+                <replacement sourceState="8" targetState="7" />
+            </replacements>
+        </mulcher>
+    </replacements>
+</map>

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map>
+    <treeTypes>
+        <treeType name="americanElm" nameI18N="treeType_americanElm" growthTimeHours="576" >
+            <stage filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" />
+            <stage filename="$data/maps/trees/americanElm/americanElm_stage01.i3d" />
+            <stage filename="$data/maps/trees/americanElm/americanElm_stage02.i3d" />
+            <stage filename="$data/maps/trees/americanElm/americanElm_stage03.i3d" />
+            <stage filename="$data/maps/trees/americanElm/americanElm_stage04.i3d" />
+        </treeType>
+        <treeType name="birch" nameI18N="treeType_birch" growthTimeHours="576" >
+            <stage filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" />
+            <stage filename="$data/maps/trees/birch/birch_stage01.i3d" />
+            <stage filename="$data/maps/trees/birch/birch_stage02.i3d" />
+            <stage filename="$data/maps/trees/birch/birch_stage03.i3d" />
+            <stage filename="$data/maps/trees/birch/birch_stage04.i3d" />
+            <stage filename="$data/maps/trees/birch/birch_stage05.i3d" />
+        </treeType>
+        <treeType name="cypress" nameI18N="treeType_cypress" growthTimeHours="576" >
+            <stage filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" />
+            <stage filename="$data/maps/trees/cypress/cypress_stage01.i3d" />
+            <stage filename="$data/maps/trees/cypress/cypress_stage02.i3d" />
+            <stage filename="$data/maps/trees/cypress/cypress_stage03.i3d" />
+            <stage filename="$data/maps/trees/cypress/cypress_stage04.i3d" />
+        </treeType>
+        <treeType name="downyServiceberry" nameI18N="treeType_downyServiceberry" growthTimeHours="576" >
+            <stage filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" />
+            <stage filename="$data/maps/trees/downeyServiceBerry/downeyServiceBerry_stage01.i3d" />
+            <stage filename="$data/maps/trees/downeyServiceBerry/downeyServiceBerry_stage02.i3d" />
+            <stage filename="$data/maps/trees/downeyServiceBerry/downeyServiceBerry_stage03.i3d" />
+        </treeType>
+        <treeType name="maple" nameI18N="treeType_maple" growthTimeHours="576" >
+            <stage filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" />
+            <stage filename="$data/maps/trees/maple/maple_stage02.i3d" />
+        </treeType>
+        <treeType name="oak" nameI18N="treeType_oak" growthTimeHours="576" >
+            <stage filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" />
+            <stage filename="$data/maps/trees/oak/oak_stage01.i3d" />
+            <stage filename="$data/maps/trees/oak/oak_stage02.i3d" />
+            <stage filename="$data/maps/trees/oak/oak_stage03.i3d" />
+        </treeType>
+        <treeType name="oliveTree" nameI18N="treeType_oliveTree" growthTimeHours="576" >
+            <stage filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" />
+            <stage filename="$data/maps/trees/oliveTree/oliveTree_stage01.i3d" />
+            <stage filename="$data/maps/trees/oliveTree/oliveTree_stage02.i3d" />
+            <stage filename="$data/maps/trees/oliveTree/oliveTree_stage03.i3d" />
+            <stage filename="$data/maps/trees/oliveTree/oliveTree_stage04.i3d" />
+        </treeType>
+        <treeType name="pagodaDogwood" nameI18N="treeType_pagodaDogwood" growthTimeHours="576" >
+            <stage filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" />
+            <stage filename="$data/maps/trees/pagodaDogwood/pagodaDogwood_stage01.i3d" />
+            <stage filename="$data/maps/trees/pagodaDogwood/pagodaDogwood_stage02.i3d" />
+            <stage filename="$data/maps/trees/pagodaDogwood/pagodaDogwood_stage03.i3d" />
+        </treeType>
+        <treeType name="pine" nameI18N="treeType_pine" growthTimeHours="576" >
+            <stage filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" />
+            <stage filename="$data/maps/trees/pine/pine_stage01.i3d" />
+            <stage filename="$data/maps/trees/pine/pine_stage02.i3d" />
+            <stage filename="$data/maps/trees/pine/pine_stage03.i3d" />
+            <stage filename="$data/maps/trees/pine/pine_stage04.i3d" />
+            <stage filename="$data/maps/trees/pine/pine_stage05.i3d" />
+            <stage filename="$data/maps/trees/pine/pine_stage06.i3d" />
+        </treeType>
+        <treeType name="poplar" nameI18N="treeType_poplar" growthTimeHours="576" >
+            <stage filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" />
+            <stage filename="$data/maps/trees/poplar/poplar_stage01.i3d" />
+            <stage filename="$data/maps/trees/poplar/poplar_stage02.i3d" />
+            <stage filename="$data/maps/trees/poplar/poplar_stage03.i3d" />
+        </treeType>
+        <treeType name="shagbarkHickory" nameI18N="treeType_shagbarkHickory" growthTimeHours="576" >
+            <stage filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" />
+            <stage filename="$data/maps/trees/shagbarkHickory/shagbarkHickory_stage01.i3d" />
+            <stage filename="$data/maps/trees/shagbarkHickory/shagbarkHickory_stage02.i3d" />
+            <stage filename="$data/maps/trees/shagbarkHickory/shagbarkHickory_stage03.i3d" />
+            <stage filename="$data/maps/trees/shagbarkHickory/shagbarkHickory_stage04.i3d" />
+        </treeType>
+        <treeType name="spruce1" nameI18N="treeType_spruce" growthTimeHours="576" >
+            <stage filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" />
+            <stage filename="$data/maps/trees/spruce/spruceVar1_stage01.i3d" />
+            <stage filename="$data/maps/trees/spruce/spruceVar1_stage02.i3d" />
+            <stage filename="$data/maps/trees/spruce/spruceVar1_stage03.i3d" />
+        </treeType>
+        <treeType name="spruce2" nameI18N="treeType_spruce" growthTimeHours="576" >
+            <stage filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" />
+            <stage filename="$data/maps/trees/spruce/spruceVar2_stage01.i3d" />
+            <stage filename="$data/maps/trees/spruce/spruceVar2_stage02.i3d" />
+            <stage filename="$data/maps/trees/spruce/spruceVar2_stage03.i3d" />
+        </treeType>
+        <treeType name="stonePine" nameI18N="treeType_stonePine" growthTimeHours="576" >
+            <stage filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" />
+            <stage filename="$data/maps/trees/stonePine/stonePine_stage01.i3d" />
+            <stage filename="$data/maps/trees/stonePine/stonePine_stage02.i3d" />
+            <stage filename="$data/maps/trees/stonePine/stonePine_stage03.i3d" />
+        </treeType>
+        <treeType name="willow1" nameI18N="treeType_willow" growthTimeHours="576" >
+            <stage filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" />
+            <stage filename="$data/maps/trees/willow/willow_type01.i3d" />
+        </treeType>
+        <treeType name="willow2" nameI18N="treeType_willow" growthTimeHours="576" >
+            <stage filename="$data/objects/pallets/treeSaplingPallet/treeSapling.i3d" />
+            <stage filename="$data/maps/trees/willow/willow_type02.i3d" />
+        </treeType>
+    </treeTypes>
+</map>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map>
+    <npcs>
+        <npc name="NPC_FR_01" title="Michael Hammond"  imageFilename="$dataS/character/humans/npc/portraits/npc_01.png" />
+        <npc name="NPC_FR_02" title="Clifford Powell"  imageFilename="$dataS/character/humans/npc/portraits/npc_02.png" />
+        <npc name="NPC_FR_03" title="Isaac Ewing"      imageFilename="$dataS/character/humans/npc/portraits/npc_03.png" />
+        <npc name="NPC_FR_04" title="Gianna Hartman"   imageFilename="$dataS/character/humans/npc/portraits/npc_04.png" />
+        <npc name="NPC_FR_05" title="Richard Miller"   imageFilename="$dataS/character/humans/npc/portraits/npc_05.png" />
+        <npc name="NPC_FR_06" title="Leroy Wilson"     imageFilename="$dataS/character/humans/npc/portraits/npc_06.png" />
+        <npc name="NPC_FR_07" title="Adrienne Hooper"  imageFilename="$dataS/character/humans/npc/portraits/npc_07.png" />
+        <npc name="NPC_FR_08" title="Samuel Ortega"    imageFilename="$dataS/character/humans/npc/portraits/npc_08.png" />
+        <npc name="NPC_FR_09" title="Zoe Scott"        imageFilename="$dataS/character/humans/npc/portraits/npc_09.png" />
+        <npc name="NPC_FR_10" title="Sheila McFarland" imageFilename="$dataS/character/humans/npc/portraits/npc_10.png" />
+        <npc name="NPC_FR_11" title="Zach Durham"      imageFilename="$dataS/character/humans/npc/portraits/npc_11.png" />
+        <npc name="NPC_FR_12" title="Jimmy Caldwell"   imageFilename="$dataS/character/humans/npc/portraits/npc_12.png" />
+        <npc name="NPC_FR_13" title="Josiah Sanford"   imageFilename="$dataS/character/humans/npc/portraits/npc_13.png" />
+        <npc name="NPC_FR_14" title="Evelyn Carson"    imageFilename="$dataS/character/humans/npc/portraits/npc_14.png" />
+        <npc name="NPC_FR_15" title="Emily Nicholson"  imageFilename="$dataS/character/humans/npc/portraits/npc_15.png" />
+		<npc name="NPC_US_16" title="Tim Fruitt"       imageFilename="$dataS/character/humans/npc/portraits/npc_44.png" />
+		<npc name="NPC_US_17" title="Justin McLean"    imageFilename="$dataS/character/humans/npc/portraits/npc_41.png" />
+		<npc name="NPC_US_18" title="T.J. Lee"         imageFilename="$dataS/character/humans/npc/portraits/npc_45.png" />
+    </npcs>
+</map>

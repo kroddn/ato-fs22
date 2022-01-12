@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="Mod Map FR" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="9.0.2"/>
+    </Asset>
+    <Files>
+        <File fileId="8" filename="$data/sounds/maps/shared/details/caveAmbienceLoop.wav"/>
+        <File fileId="13" filename="$data/sounds/maps/shared/details/houseAmbience01.wav"/>
+        <File fileId="14" filename="$data/sounds/maps/shared/details/houseAmbience02.wav"/>
+        <File fileId="4" filename="$data/sounds/maps/shared/details/industryAmbience02.wav"/>
+        <File fileId="5" filename="$data/sounds/maps/shared/details/industryAmbience03.wav"/>
+        <File fileId="6" filename="$data/sounds/maps/shared/details/lakeDock01.wav"/>
+        <File fileId="7" filename="$data/sounds/maps/shared/details/lakeDock02.wav"/>
+        <File fileId="2" filename="$data/sounds/maps/shared/environment/riverLoopB.wav"/>
+        <File fileId="3" filename="$data/sounds/maps/shared/environment/riverLoopB2.wav"/>
+        <File fileId="11" filename="$data/sounds/maps/shared/environment/windAltitude02.wav"/>
+        <File fileId="12" filename="$data/sounds/maps/shared/environment/windAltitude03.wav"/>
+        <File fileId="9" filename="$data/sounds/maps/shared/fauna/frog1.wav"/>
+        <File fileId="10" filename="$data/sounds/maps/shared/fauna/frog2.wav"/>
+    </Files>
+    <Materials>
+        <Material name="UnnamedMaterial" materialId="325341" diffuseColor="1 1 1 1"/>
+    </Materials>
+    <Shapes externalShapesFile="yukonSounds.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <TransformGroup name="audio_group" nodeId="325337">
+            <TransformGroup name="environment" nodeId="325338">
+                <TransformGroup name="river1" translation="0 111.271 0" nodeId="325339">
+                    <Shape shapeId="1" name="spline" translation="1227.49 -33.5205 -866.918" rotation="0 -81.288 0" nodeId="325340" distanceBlending="false"/>
+                    <TransformGroup name="soundNode" nodeId="325342">
+                        <AudioSource name="riverLoopB" nodeId="325343" fileIds="2" range="100" innerRange="50" volume="0.7" loops="0" audioGroup="ENVIRONMENT"/>
+                    </TransformGroup>
+                </TransformGroup>
+                <TransformGroup name="river2" nodeId="325345">
+                    <Shape shapeId="2" name="spline" translation="-49.8314 122.229 6.266" rotation="0 -32.925 0" nodeId="325346" distanceBlending="false"/>
+                    <TransformGroup name="soundNode" nodeId="325347">
+                        <AudioSource name="riverLoopB2" nodeId="325348" fileIds="3" range="100" innerRange="50" volume="0.7" loops="0" audioGroup="ENVIRONMENT"/>
+                    </TransformGroup>
+                </TransformGroup>
+                <TransformGroup name="river3" nodeId="325350">
+                    <Shape shapeId="3" name="spline" translation="2298.15 209.996 -2418.05" rotation="0 24.9818 0" nodeId="325351" distanceBlending="false"/>
+                    <TransformGroup name="soundNode" nodeId="325352">
+                        <AudioSource name="riverLoopB3" nodeId="325353" fileIds="2" range="100" innerRange="50" volume="0.7" loops="0" audioGroup="ENVIRONMENT"/>
+                    </TransformGroup>
+                </TransformGroup>
+                <TransformGroup name="river4" nodeId="325483">
+                    <Shape shapeId="4" name="spline" translation="2298.15 209.996 -2418.05" rotation="0 24.9818 0" nodeId="325485" distanceBlending="false"/>
+                    <TransformGroup name="soundNode" nodeId="325486">
+                        <AudioSource name="riverLoopB4" nodeId="325487" fileIds="2" range="100" innerRange="50" volume="0.7" loops="0" audioGroup="ENVIRONMENT"/>
+                    </TransformGroup>
+                </TransformGroup>
+                <TransformGroup name="river5" nodeId="325616">
+                    <Shape shapeId="5" name="spline" translation="2298.15 324.341 -2418.05" rotation="0 24.9818 0" nodeId="325618" distanceBlending="false"/>
+                    <TransformGroup name="soundNode" nodeId="325619">
+                        <AudioSource name="riverLoopB5" nodeId="325620" fileIds="2" range="100" innerRange="50" volume="0.7" loops="0" audioGroup="ENVIRONMENT"/>
+                    </TransformGroup>
+                </TransformGroup>
+                <TransformGroup name="river6" nodeId="325622">
+                    <Shape shapeId="6" name="spline" translation="2298.15 368.78 -2418.05" rotation="0 24.9818 0" nodeId="325624" distanceBlending="false"/>
+                    <TransformGroup name="soundNode" nodeId="325625">
+                        <AudioSource name="riverLoopB6" nodeId="325626" fileIds="2" range="100" innerRange="50" volume="0.7" loops="0" audioGroup="ENVIRONMENT"/>
+                    </TransformGroup>
+                </TransformGroup>
+                <TransformGroup name="river7" nodeId="325628">
+                    <Shape shapeId="7" name="spline" translation="2298.15 553.947 -2418.05" rotation="0 24.9818 0" nodeId="325630" distanceBlending="false"/>
+                    <TransformGroup name="soundNode" nodeId="325631">
+                        <AudioSource name="riverLoopB7" nodeId="325632" fileIds="2" range="100" innerRange="50" volume="0.7" loops="0" audioGroup="ENVIRONMENT"/>
+                    </TransformGroup>
+                </TransformGroup>
+                <TransformGroup name="river8" nodeId="325634">
+                    <Shape shapeId="8" name="spline" translation="2298.15 413.62 -2418.05" rotation="0 24.9818 0" nodeId="325636" distanceBlending="false"/>
+                    <TransformGroup name="soundNode" nodeId="325637">
+                        <AudioSource name="riverLoopB8" nodeId="325638" fileIds="2" range="100" innerRange="50" volume="0.7" loops="0" audioGroup="ENVIRONMENT"/>
+                    </TransformGroup>
+                </TransformGroup>
+            </TransformGroup>
+            <TransformGroup name="details" nodeId="325355">
+                <TransformGroup name="industrial" nodeId="325356">
+                    <AudioSource name="industryAmbience01" translation="904.207 79.5146 875.89" rotation="-0.301984 -0 0.571546" nodeId="325357" fileIds="4" range="50" innerRange="25" volume="1" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="industryAmbience02" translation="2385.18 88.214 1480.84" nodeId="325359" fileIds="5" range="150" innerRange="50" volume="1" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="industryAmbience03" translation="913.893 79.4202 841.123" nodeId="325361" fileIds="5" range="100" innerRange="50" volume="1" loops="0" audioGroup="ENVIRONMENT"/>
+                </TransformGroup>
+                <TransformGroup name="special" nodeId="325363">
+                    <AudioSource name="lakeDock01" translation="689.32 79.3923 873.46" rotation="11.361 -0 0" nodeId="325371" fileIds="6" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="lakeDock03" translation="689.081 81.3406 804.327" rotation="11.361 -0 0" nodeId="325373" fileIds="6" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="lakeDock04" translation="689.735 79.392 771.282" nodeId="325375" fileIds="7" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="caveAmbienceLoop" translation="-2076.23 102.272 2237.1" nodeId="325377" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="lakeDock02" translation="685.578 77.75 832.94" nodeId="325379" fileIds="7" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="caveAmbienceLoop1" translation="-2112.27 102.272 2237.1" nodeId="325435" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="caveAmbienceLoop2" translation="-2166.29 102.272 2237.1" nodeId="325437" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="caveAmbienceLoop5" translation="-2282.18 123.196 1559.2" nodeId="325439" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="caveAmbienceLoop3" translation="-2282.18 123.196 1603.84" nodeId="325441" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="caveAmbienceLoop4" translation="-2282.18 123.196 1666.63" nodeId="325443" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="caveAmbienceLoop8" translation="-2673.83 129.992 2130.15" nodeId="325445" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="caveAmbienceLoop6" translation="-2628.68 129.992 2130.15" nodeId="325447" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="caveAmbienceLoop7" translation="-2570.64 129.992 2130.15" nodeId="325449" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="caveAmbienceLoop9" translation="-2499.72 117.334 2625.64" nodeId="325451" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="caveAmbienceLoop10" translation="-2500.87 96.1731 2692.41" nodeId="325453" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="caveAmbienceLoop11" translation="-2500.55 82.6259 2754.59" nodeId="325455" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="caveAmbienceLoop12" translation="-2501.9 82.7354 2814.74" nodeId="325457" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="caveAmbienceLoop13" translation="-2501.9 82.7354 2773.28" nodeId="325459" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="caveAmbienceLoop14" translation="-2501.02 82.7354 2846.28" nodeId="325461" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="caveAmbienceLoop15" translation="-2498.87 82.7354 2881.13" nodeId="325463" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="caveAmbienceLoop16" translation="-2480.74 82.7354 2859.73" nodeId="325465" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="caveAmbienceLoop17" translation="-2445.53 82.735 2872.89" nodeId="325467" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="caveAmbienceLoop18" translation="-2463.42 82.7354 2902.19" nodeId="325469" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="caveAmbienceLoop19" translation="-2487.87 82.7354 2899.88" nodeId="325471" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="caveAmbienceLoop20" translation="-2523.91 82.735 2881.66" nodeId="325473" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="caveAmbienceLoop21" translation="-2501.87 82.934 2916.45" nodeId="325475" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="caveAmbienceLoop22" translation="-2560.83 82.735 2883.06" nodeId="325477" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="caveAmbienceLoop23" translation="-2625.87 82.7354 2881.17" nodeId="325479" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="caveAmbienceLoop24" translation="-2682.3 83.379 2882.2" nodeId="325481" fileIds="8" range="15" innerRange="5" volume="0.7" loops="0" audioGroup="UNKNOWN"/>
+                    <AudioSource name="lakeDock05" translation="705.425 77.75 881.318" nodeId="325640" fileIds="7" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="lakeDock06" translation="755.262 77.75 891.667" nodeId="325642" fileIds="7" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="lakeDock07" translation="822.368 77.75 908.198" nodeId="325644" fileIds="7" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="lakeDock08" translation="861.186 77.75 913.184" nodeId="325646" fileIds="7" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="lakeDock09" translation="909.608 77.75 921.055" nodeId="325648" fileIds="7" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="lakeDock10" translation="936.528 77.75 925.966" nodeId="325650" fileIds="7" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="lakeDock11" translation="981.057 77.75 942.074" nodeId="325652" fileIds="7" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="lakeDock12" translation="1003.2 77.75 904.522" nodeId="325654" fileIds="7" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="lakeDock13" translation="699.681 77.75 1231.3" nodeId="325656" fileIds="7" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="lakeDock14" translation="764.498 77.75 1232.35" nodeId="325658" fileIds="7" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="lakeDock15" translation="1825.99 77.75 1436.97" nodeId="325660" fileIds="7" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="lakeDock16" translation="2265.76 77.75 -195.649" nodeId="325662" fileIds="7" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="lakeDock17" translation="-915.848 77.75 1247.6" nodeId="325664" fileIds="7" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="lakeDock18" translation="-949.855 77.75 1228.65" nodeId="325666" fileIds="7" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="lakeDock19" translation="-986.322 77.75 1213.27" nodeId="325668" fileIds="7" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="lakeDock20" translation="-1021.81 77.75 1193.77" nodeId="325670" fileIds="7" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="lakeDock21" translation="-1070.59 77.75 1173.69" nodeId="325672" fileIds="7" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="lakeDock22" translation="-1210.07 77.75 -977.394" nodeId="325674" fileIds="7" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="lakeDock23" translation="-1031.36 77.75 -1067.03" nodeId="325676" fileIds="7" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="lakeDock24" translation="-2012.63 77.75 -2279.77" nodeId="325678" fileIds="7" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="lakeDock25" translation="-2638.6 77.75 -3003.61" nodeId="325680" fileIds="7" range="20" innerRange="10" volume="0.5" loops="0" audioGroup="ENVIRONMENT"/>
+                </TransformGroup>
+                <TransformGroup name="nature" nodeId="325381">
+                    <AudioSource name="frog1" translation="140.689 76.8915 -990.914" rotation="-1.00223 0.442855 2.44318" nodeId="325382" fileIds="9" range="100" innerRange="50" volume="0.6" loops="0" audioGroup="ENVIRONMENT" minuteOfDayStart="1320" minuteOfDayEnd="240" weatherPreventMask="8" viewerSpacialityPreventMask="5"/>
+                    <AudioSource name="frog2" translation="595.913 90.3499 -532.89" nodeId="325384" fileIds="10" range="50" innerRange="5" volume="0.6" loops="0" audioGroup="ENVIRONMENT" minuteOfDayStart="1320" minuteOfDayEnd="240" weatherPreventMask="8" viewerSpacialityPreventMask="5"/>
+                    <AudioSource name="frog3" translation="474.676 101.72 -278.688" rotation="6.50855 -0 6.32797" nodeId="325386" fileIds="9" range="50" innerRange="5" volume="0.6" loops="0" audioGroup="ENVIRONMENT" minuteOfDayStart="1320" minuteOfDayEnd="240" weatherPreventMask="8" viewerSpacialityPreventMask="5"/>
+                    <AudioSource name="frog4" translation="-98.4922 79.3245 -462.992" rotation="16.3781 -0 86.3123" nodeId="325388" fileIds="10" range="100" innerRange="40" volume="0.6" loops="0" audioGroup="ENVIRONMENT" minuteOfDayStart="1320" minuteOfDayEnd="240" weatherPreventMask="8" viewerSpacialityPreventMask="5"/>
+                    <AudioSource name="frog5" translation="780.269 77.75 -618.617" nodeId="325390" fileIds="10" range="100" innerRange="50" volume="0.6" loops="0" audioGroup="ENVIRONMENT" minuteOfDayStart="1320" minuteOfDayEnd="240" weatherPreventMask="8" viewerSpacialityPreventMask="5"/>
+                    <AudioSource name="windAltitude02" translation="988.515 783.211 -177.255" nodeId="325392" fileIds="11" range="700" innerRange="700" volume="0.1" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="windAltitude03" translation="1962.54 204.745 -1995.55" rotation="-4.65036 54.3009 -8.82421" nodeId="325394" fileIds="12" range="400" innerRange="400" volume="0.1" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="frog6" translation="-726.351 77.8974 -193.864" rotation="-31.1743 -6.50285 93.9197" nodeId="325410" fileIds="9" range="250" innerRange="150" volume="0.6" loops="0" audioGroup="ENVIRONMENT" minuteOfDayStart="1120" minuteOfDayEnd="240" weatherPreventMask="8" viewerSpacialityPreventMask="5"/>
+                    <AudioSource name="frog7" translation="-225.372 123.528 -3518.98" rotation="-31.1743 -6.50285 93.9197" nodeId="325412" fileIds="9" range="300" innerRange="250" volume="0.6" loops="0" audioGroup="ENVIRONMENT" minuteOfDayStart="1320" minuteOfDayEnd="240" weatherPreventMask="8" viewerSpacialityPreventMask="5"/>
+                    <AudioSource name="frog8" translation="228.892 76.1715 -3453.81" rotation="-31.1743 -6.50285 93.9197" nodeId="325414" fileIds="9" range="350" innerRange="250" volume="0.6" loops="0" audioGroup="ENVIRONMENT" minuteOfDayStart="1320" minuteOfDayEnd="240" weatherPreventMask="8" viewerSpacialityPreventMask="5"/>
+                    <AudioSource name="frog9" translation="6.58395 104.718 -3473.25" rotation="-31.1743 -6.50285 93.9197" nodeId="325416" fileIds="9" range="350" innerRange="250" volume="0.6" loops="0" audioGroup="ENVIRONMENT" minuteOfDayStart="1320" minuteOfDayEnd="240" weatherPreventMask="8" viewerSpacialityPreventMask="5"/>
+                    <AudioSource name="windAltitude04" translation="2335.83 189.725 -2518.03" rotation="-4.65036 54.3009 -8.82421" nodeId="325418" fileIds="12" range="450" innerRange="450" volume="0.1" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="windAltitude05" translation="3114.15 245.136 -3396.97" rotation="-4.65036 54.3009 -8.82421" nodeId="325420" fileIds="12" range="500" innerRange="500" volume="0.1" loops="0" audioGroup="ENVIRONMENT"/>
+                    <AudioSource name="windAltitude06" translation="2645.04 221.311 -2790.32" rotation="-4.65036 54.3009 -8.82421" nodeId="325422" fileIds="12" range="500" innerRange="500" volume="0.1" loops="0" audioGroup="ENVIRONMENT"/>
+                </TransformGroup>
+                <TransformGroup name="houses" nodeId="325424">
+                    <AudioSource name="houseAmbience01" translation="-188.716 81.857 -849.747" rotation="90 -40.0006 -9.99329e-06" nodeId="325425" fileIds="13" range="25" innerRange="7" volume="1" loops="0" audioGroup="ENVIRONMENT" viewerSpacialityPreventMask="68"/>
+                    <AudioSource name="houseAmbience02" translation="841.742 87.5549 -768.895" rotation="46.6514 4.69579 -4.41887" nodeId="325427" fileIds="14" range="30" innerRange="10" volume="1" loops="0" audioGroup="ENVIRONMENT" viewerSpacialityPreventMask="68"/>
+                    <AudioSource name="houseAmbience03" translation="1243.43 88.4501 1234.39" rotation="90 -40.0006 -9.99329e-06" nodeId="325429" fileIds="13" range="25" innerRange="7" volume="1" loops="0" audioGroup="ENVIRONMENT" viewerSpacialityPreventMask="68"/>
+                    <AudioSource name="houseAmbience04" translation="1227.91 87.9679 1170.03" rotation="46.6514 4.69579 -4.41887" nodeId="325431" fileIds="14" range="30" innerRange="10" volume="1" loops="0" audioGroup="ENVIRONMENT" viewerSpacialityPreventMask="68"/>
+                    <AudioSource name="houseAmbience05" translation="1386.33 88.428 1151.1" rotation="90 -40.0006 -9.99329e-06" nodeId="325433" fileIds="13" range="25" innerRange="7" volume="1" loops="0" audioGroup="ENVIRONMENT" viewerSpacialityPreventMask="68"/>
+                </TransformGroup>
+            </TransformGroup>
+        </TransformGroup>
+    </Scene>
+    <UserAttributes>
+        <UserAttribute nodeId="325339">
+            <Attribute name="onCreate" type="scriptCallback" value="AmbientSoundUtil.onCreateMovingSound"/>
+        </UserAttribute>
+        <UserAttribute nodeId="325345">
+            <Attribute name="onCreate" type="scriptCallback" value="AmbientSoundUtil.onCreateMovingSound"/>
+        </UserAttribute>
+        <UserAttribute nodeId="325350">
+            <Attribute name="onCreate" type="scriptCallback" value="AmbientSoundUtil.onCreateMovingSound"/>
+        </UserAttribute>
+        <UserAttribute nodeId="325483">
+            <Attribute name="onCreate" type="scriptCallback" value="AmbientSoundUtil.onCreateMovingSound"/>
+        </UserAttribute>
+        <UserAttribute nodeId="325616">
+            <Attribute name="onCreate" type="scriptCallback" value="AmbientSoundUtil.onCreateMovingSound"/>
+        </UserAttribute>
+        <UserAttribute nodeId="325622">
+            <Attribute name="onCreate" type="scriptCallback" value="AmbientSoundUtil.onCreateMovingSound"/>
+        </UserAttribute>
+        <UserAttribute nodeId="325628">
+            <Attribute name="onCreate" type="scriptCallback" value="AmbientSoundUtil.onCreateMovingSound"/>
+        </UserAttribute>
+        <UserAttribute nodeId="325634">
+            <Attribute name="onCreate" type="scriptCallback" value="AmbientSoundUtil.onCreateMovingSound"/>
+        </UserAttribute>
+    </UserAttributes>
+</i3D>

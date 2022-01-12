@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeable type="productionPoint" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../shared/xml/schema/placeable.xsd">
+    <storeData>
+        <name>Concrete Factory</name>
+        <image>maps/placeables/concreteFactory/store.png</image>
+        <price>120000</price>
+		<canBeSold>true</canBeSold>
+        <showInStore>true</showInStore>
+        <lifetime>1000</lifetime>
+        <rotation>0</rotation>
+        <brand>lizard</brand>
+        <species>placeable</species>
+        <category>productionPoints</category>
+		<brush>
+            <type>placeable</type>
+            <category>production</category>
+            <tab>factories</tab>
+        </brush>
+        <vertexBufferMemoryUsage>50000</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>10000</indexBufferMemoryUsage>
+        <textureMemoryUsage>500000</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+    </storeData>
+
+    <base>
+        <filename>maps/placeables/concreteFactory/concreteFactory.i3d</filename>
+    </base>
+	
+	<hotspots>
+        <hotspot type="PRODUCTION_POINT" linkNode="unloadTriggerMarker" teleportNode="teleportNode" />
+    </hotspots>
+
+    <placement useRandomYRotation="false" useManualYRotation="true" />
+
+    <infoTrigger triggerNode="infoTrigger" />
+	
+	<clearAreas>
+        <clearArea startNode="0>12|0" widthNode="0>12|0|0" heightNode="0>12|0|1"/>
+    </clearAreas>
+
+    <leveling requireLeveling="true" maxSmoothDistance="10" maxSlope="75" maxEdgeAngle="30" >
+        <levelAreas>
+            <levelArea startNode="0>10|0" widthNode="0>10|0|0" heightNode="0>10|0|1" groundType="gravel"/>
+		</levelAreas>
+    </leveling>
+	
+	<indoorAreas>
+        <indoorArea startNode="0>11|0" widthNode="0>11|0|0" heightNode="0>11|0|1" />
+    </indoorAreas>
+	
+	<tipOcclusionUpdateAreas>
+        <tipOcclusionUpdateArea startNode="0>9|0" endNode="0>9|0|0" />
+    </tipOcclusionUpdateAreas>
+
+    <ai>
+        <updateAreas />
+    </ai>
+
+    <triggerMarkers>
+        <triggerMarker node="warningStripes_palletSpawnArea" adjustToGround="false" />
+        <triggerMarker node="playerTriggerMarker" filename="$data/shared/assets/marker/markerIcons.xml" id="WRENCH" adjustToGround="false" />
+		<triggerMarker node="unloadTriggerMarker" filename="$data/shared/assets/marker/markerIcons.xml" id="UNLOAD" adjustToGround="false" />
+		<triggerMarker node="unloadTriggerMarker1" filename="$data/shared/assets/marker/markerIcons.xml" id="LOAD" adjustToGround="true" />
+    </triggerMarkers>
+
+    <productionPoint>
+        <productions sharedThroughputCapacity="false">
+            <production id="ConcreteFactory" name="Concrete Factory" params="" cyclesPerHour="10" costsPerActiveHour="1">
+                <inputs>
+                    <input fillType="GRAVEL" amount="1000" />
+					<input fillType="RIVERSAND" amount="800" />
+					<input fillType="PEASTONE" amount="300" />
+					<input fillType="CEMENT" amount="200" />
+					<input fillType="LIMESTONE" amount="200" />
+                </inputs>
+                <outputs>
+					<output fillType="CONCRETE" amount="2000" />
+                </outputs>
+            </production>
+        </productions>
+
+        <storage isExtension="false" fillLevelSyncThreshold="50" >
+			<capacity fillType="LIMESTONE"   capacity="500000" />
+            <capacity fillType="PEASTONE"   capacity="500000" />
+			<capacity fillType="RIVERSAND"        capacity="500000" />
+			<capacity fillType="GRAVEL"        capacity="500000" />
+            <capacity fillType="CEMENT"        capacity="500000" />
+			<capacity fillType="CONCRETE"        capacity="500000" />
+			
+        </storage>
+
+        <sellingStation node="concrete" supportsExtension="false">
+            <unloadTrigger exactFillRootNode="unloadTrigger" fillTypes="LIMESTONE PEASTONE GRAVEL RIVERSAND CEMENT" aiNode="aiNode" />
+        </sellingStation>
+		
+		<loadingStation node="loadingStation" supportsExtension="false">
+            <loadTrigger fillTypes="CONCRETE" triggerNode="loadTrigger" fillLitersPerSecond="5000" dischargeNode="dischargeNode" aiNode="loadingStationAINode">
+				<effectNode  effectNode="4|3|0" materialType="pipe"   materialTypeId="pipe"            fadeTime="0.5" />
+				<effectNode  effectNode="4|3|1" materialType="smoke"  materialTypeId="unloadingSmoke"  fadeTime="0.5" />
+            </loadTrigger>
+        </loadingStation>
+		
+        <playerTrigger node="playerTrigger" />
+
+        <sounds>
+            <idle template="grainMillIdle" linkNode="0>" />
+            <active template="grainMillWork" linkNode="0>" />
+        </sounds>
+    </productionPoint>
+
+    <i3dMappings>
+        <i3dMapping id="infoTrigger" node="0>0" />
+        <i3dMapping id="concrete" node="0>1" />
+        <i3dMapping id="unloadTrigger" node="0>1|0" />
+        <i3dMapping id="grainGateLinkNode" node="0>1|0|0" />
+        <i3dMapping id="unloadTriggerMarker" node="0>1|0|1" />
+        <i3dMapping id="teleportNode" node="0>1|1" />
+        <i3dMapping id="aiNode" node="0>1|2" />
+        <i3dMapping id="playerTrigger" node="0>2|0" />
+        <i3dMapping id="playerTriggerMarker" node="0>2|0|0" />
+        <i3dMapping id="warningStripes" node="0>3" />
+        <i3dMapping id="warningStripes_palletSpawnArea" node="0>3|0" />
+		<i3dMapping id="loadingStation" node="0>4" />
+        <i3dMapping id="loadTrigger" node="0>4|0" />
+        <i3dMapping id="dischargeNode" node="0>4|0|0" />
+        <i3dMapping id="unloadTriggerMarker1" node="0>4|1" />
+        <i3dMapping id="loadingStationAINode" node="0>4|2" />
+		<i3dMapping id="loadTrigger2" node="0>5|0" />
+        <i3dMapping id="dischargeNode2" node="0>5|0|0" />
+        <i3dMapping id="unloadTriggerMarker2" node="0>5|1" />
+        <i3dMapping id="loadingStationAINode2" node="0>5|2" />
+		<i3dMapping id="loadTrigger3" node="0>6|0" />
+        <i3dMapping id="dischargeNode3" node="0>6|0|0" />
+        <i3dMapping id="unloadTriggerMarker3" node="0>6|1" />
+        <i3dMapping id="loadingStationAINode3" node="0>6|2" />
+		<i3dMapping id="loadTrigger4" node="0>7|0" />
+        <i3dMapping id="dischargeNode4" node="0>7|0|0" />
+        <i3dMapping id="unloadTriggerMarker4" node="0>7|1" />
+        <i3dMapping id="loadingStationAINode4" node="0>7|2" />
+    </i3dMappings>
+</placeable>

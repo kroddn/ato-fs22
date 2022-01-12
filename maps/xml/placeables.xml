@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<placeables>
+    <placeable mapBoundId="sellingStationBales"                 	filename="$mapdir$/maps/placeables/sellingStationBales/sellingStationBales.xml"                        	position="1673.247 90.632 1315.159"    	rotation="0 0 -9.665" />
+	<placeable mapBoundId="sellingStationVehicles" 					filename="$mapdir$/maps/placeables/sellingStationVehicles/sellingStationVehicles.xml" 					position="845.405 79.401 817.988" 		rotation="-180 0 -180" />
+	<placeable mapBoundId="sawmill"                             	filename="$mapdir$/maps/placeables/sawmill/sawmill.xml"                                                 position="-20.337 85.008 -1031.889"     rotation="0 34.322 0" />
+	<placeable mapBoundId="sellingStationFarmersMarket"           	filename="$mapdir$/maps/placeables/sellingStationGeneric/sellingStationFarmersMarket.xml"           	position="1440.377 88.428 1267.881" 	rotation="0 180 0" />
+	<placeable mapBoundId="sellingStationFarmersMarket"           	filename="$mapdir$/maps/placeables/sellingStationGeneric/sellingStationFarmersMarket1.xml"           	position="762.965 79.380 829.947" 	    rotation="0 0 0" />
+	<placeable mapBoundId="sellingStationWoodHeatingPlant"          filename="$mapdir$/maps/placeables/sellingStationWoodHeatingPlant/sellingStationWoodHeatingPlant.xml"   position="2340.517 88.214 1402.083"     rotation="0 -30 0" />
+	<placeable mapBoundId="sellingStationWoodHeatingPlant"          filename="$mapdir$/maps/placeables/sellingStationWoodHeatingPlant/sellingStationWoodHeatingPlant1.xml"  position="940.196 79.370 898.075"       rotation="-180 5.956 -180" />
+	<placeable mapBoundId="gasStation"             					filename="$mapdir$/maps/placeables/gasStation/gasStation.xml"                        					position="1347.419 88.462 1216.268" 	rotation="0 90 0" />
+	<placeable mapBoundId="goldWashplant"           	 			filename="$mapdir$/maps/placeables/washplant/washplant.xml"                 							position="-3461.57 89.571 2263.382"     rotation="180 0 180" />
+	<placeable mapBoundId="goldWashplant"           	 			filename="$mapdir$/maps/placeables/washplant/washplant01.xml"                 							position="956.371 181.949 -246.53"      rotation="0 -71.09 0" />
+	<placeable mapBoundId="goldWashplant"           	 			filename="$mapdir$/maps/placeables/washplant/washplant02.xml"                 							position="1571.225 81.053 -2843.387"    rotation="0 -45.64 0" />
+	<placeable mapBoundId="dirtProcessor"           	 			filename="$mapdir$/maps/placeables/dirtProcessor/dirtProcessor.xml"                 					position="2657.185 88.213 1204.760"     rotation="0 -65.486 0" />
+	<placeable mapBoundId="concreteFactory"           	 			filename="$mapdir$/maps/placeables/concreteFactory/concreteFactory.xml"                 				position="2936.671 88.213 1088.761"     rotation="0 -64.327 0" />
+	<placeable mapBoundId="cementFactory"           	 			filename="$mapdir$/maps/placeables/cementFactory/cementFactory.xml"                 				    position="2795.313 88.213 1146.837"     rotation="0 -65.402 0" />
+	<placeable mapBoundId="sellingStationShoppingMall"            	filename="$mapdir$/maps/placeables/sellingStationShoppingMall/sellingStationShoppingMall.xml"       	position="1173.276 88.428 1317.382"     rotation="0 30.663 0" />
+    <placeable mapBoundId="farmHouse"  								filename="$mapdir$/maps/placeables/farmBuildings/farmHouse/farmHouse02.xml"   							position="841.044 80.977 -667.926" 		rotation="-180 86.765 -180" />	
+</placeables>

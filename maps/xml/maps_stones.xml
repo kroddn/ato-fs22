@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../shared/xml/schema/stones.xsd">
+    <stones name="stone" title="$l10n_fillType_stone">
+        <general firstChannel="0" numChannels="3" />
+        <picking minValue="2" maxValue="4" pickedValue="5" maskValue="1" litersPerSqm="5" />
+
+        <growth>
+            <update period="12" sourceState="5" targetState="6" />
+            <update period="12" sourceState="6" targetState="1" />
+        </growth>
+
+        <!-- multiplier of 3 equals an increase of around 30% at the current stone density -->
+        <wear>
+            <type name="CUTTER"        multiplier1="1.50" multiplier2="2.00" multiplier3="3.00"/>
+            <type name="SOWINGMACHINE" multiplier1="1.25" multiplier2="1.50" multiplier3="2.00"/>
+            <type name="WEEDER"        multiplier1="1.00" multiplier2="1.25" multiplier3="1.75"/>
+            <type name="MOWER"         multiplier1="1.75" multiplier2="2.75" multiplier3="4.00"/>
+            <type name="TEDDER"        multiplier1="1.25" multiplier2="1.75" multiplier3="2.25"/>
+            <type name="WINDROWER"     multiplier1="1.25" multiplier2="1.75" multiplier3="2.25"/>
+            <type name="MULCHER"       multiplier1="1.00" multiplier2="1.50" multiplier3="2.00"/>
+        </wear>
+    </stones>
+</map>

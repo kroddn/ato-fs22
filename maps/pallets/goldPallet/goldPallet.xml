@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="pallet" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../shared/xml/schema/vehicle.xsd">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+
+    <storeData>
+        <name>$l10n_storeItem_honeyBoxPallet</name>
+        <image>$data/store/store_empty.png</image>
+        <category>pallets</category>
+        <brand>LIZARD</brand>
+        <showInStore>false</showInStore>
+        <canBeSold>false</canBeSold>
+        <financeCategory>OTHER</financeCategory>
+        <vertexBufferMemoryUsage>111616</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>17920</indexBufferMemoryUsage>
+        <textureMemoryUsage>2031616</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+        <audioMemoryUsage>0</audioMemoryUsage>
+    </storeData>
+
+    <base>
+        <typeDesc>$l10n_typeDesc_pallet</typeDesc>
+        <filename>maps/pallets/goldPallet/goldPallet.i3d</filename>
+        <size width="1.4" length="1" height="0.8" />
+        <canBeReset>false</canBeReset>
+        <components>
+            <component centerOfMass="0 0.1 0" solverIterationCount="10" mass="60"/>
+        </components>
+        <showInVehicleMenu>false</showInVehicleMenu>
+        <mapHotspot available="false" />
+    </base>
+
+    <animations>
+        <animation name="animation">
+            <part node="honeyBox1" startTime="0.000" endTime="0.001" visibility="false" />
+            <part node="honeyBox1" startTime="0.001" endTime="1.000" visibility="true" />
+
+            <sound template="palletsFillWood" startTime="0.001" direction="-1" pitchScale="0.8" />
+
+            <part node="honeyBox2" startTime="0.000" endTime="0.143" visibility="false" />
+            <part node="honeyBox2" startTime="0.143" endTime="1.000" visibility="true" />
+
+            <sound template="palletsFillWood" startTime="0.143" direction="-1" pitchScale="0.8" />
+
+            <part node="honeyBox3" startTime="0.000" endTime="0.286" visibility="false" />
+            <part node="honeyBox3" startTime="0.286" endTime="1.000" visibility="true" />
+
+            <sound template="palletsFillWood" startTime="0.286" direction="-1" pitchScale="0.8" />
+
+            <part node="honeyBox4" startTime="0.000" endTime="0.429" visibility="false" />
+            <part node="honeyBox4" startTime="0.429" endTime="1.000" visibility="true" />
+
+            <sound template="palletsFillWood" startTime="0.429" direction="-1" pitchScale="0.8" />
+
+            <part node="honeyBox5" startTime="0.000" endTime="0.571" visibility="false" />
+            <part node="honeyBox5" startTime="0.571" endTime="1.000" visibility="true" />
+
+            <sound template="palletsFillWood" startTime="0.571" direction="-1" pitchScale="0.8" />
+
+            <part node="honeyBox6" startTime="0.000" endTime="0.714" visibility="false" />
+            <part node="honeyBox6" startTime="0.714" endTime="1.000" visibility="true" />
+
+            <sound template="palletsFillWood" startTime="0.714" direction="-1" pitchScale="0.8" />
+
+            <part node="honeyBox7" startTime="0.000" endTime="0.857" visibility="false" />
+            <part node="honeyBox7" startTime="0.857" endTime="1.000" visibility="true" />
+
+            <sound template="palletsFillWood" startTime="0.857" direction="-1" pitchScale="0.8" />
+
+            <part node="honeyBox8" startTime="0.000" endTime="0.999" visibility="false" />
+            <part node="honeyBox8" startTime="0.999" endTime="1.000" visibility="true" />
+
+            <sound template="palletsFillWood" startTime="0.999" direction="-1" pitchScale="0.8" />
+        </animation>
+    </animations>
+
+    <fillUnit>
+        <fillUnitConfigurations>
+            <fillUnitConfiguration>
+                <fillUnits removeVehicleIfEmpty="true">
+                    <fillUnit unitTextOverride="$l10n_unit_literShort" fillTypes="GOLD" capacity="1000" updatemass="0.1">
+                        <fillLevelAnimation name="animation" resetOnEmpty="true" />
+                    </fillUnit>
+                </fillUnits>
+            </fillUnitConfiguration>
+        </fillUnitConfigurations>
+    </fillUnit>
+
+    <dischargeable requiresTipOcclusionArea="false">
+        <dischargeNode node="dischargeNode" emptySpeed="500" fillUnitIndex="1" maxDistance="6" canStartDischargeAutomatically="true" playSound="false"/>
+    </dischargeable>
+
+    <dynamicMount triggerNode="dynamicMountTrigger" />
+
+    <tensionBeltObject>
+        <meshNodes>
+            <meshNode node="honeyBoxCol1"/>
+            <meshNode node="honeyBoxCol2"/>
+            <meshNode node="honeyBoxCol3"/>
+            <meshNode node="honeyBoxCol4"/>
+            <meshNode node="honeyBoxCol5"/>
+            <meshNode node="honeyBoxCol6"/>
+            <meshNode node="honeyBoxCol7"/>
+            <meshNode node="honeyBoxCol8"/>
+        </meshNodes>
+    </tensionBeltObject>
+
+    <i3dMappings>
+        <i3dMapping id="honeyBoxPallet_component1" node="0>" />
+        <i3dMapping id="euroPalletVis" node="0>0" />
+        <i3dMapping id="pallet02_mat" node="0>0|0" />
+        <i3dMapping id="dynamicMountTrigger" node="0>1" />
+        <i3dMapping id="dischargeNode" node="0>2" />
+        <i3dMapping id="honeyBox1" node="0>4|0" />
+        <i3dMapping id="honeyBox2" node="0>4|1" />
+        <i3dMapping id="honeyBox3" node="0>4|2" />
+        <i3dMapping id="honeyBox4" node="0>4|3" />
+        <i3dMapping id="honeyBox5" node="0>4|4" />
+        <i3dMapping id="honeyBox6" node="0>4|5" />
+        <i3dMapping id="honeyBox7" node="0>4|6" />
+        <i3dMapping id="honeyBox8" node="0>4|7" />
+        <i3dMapping id="honeyBoxCol1" node="0>5|0" />
+        <i3dMapping id="honeyBoxCol2" node="0>5|1" />
+        <i3dMapping id="honeyBoxCol3" node="0>5|2" />
+        <i3dMapping id="honeyBoxCol4" node="0>5|3" />
+        <i3dMapping id="honeyBoxCol5" node="0>5|4" />
+        <i3dMapping id="honeyBoxCol6" node="0>5|5" />
+        <i3dMapping id="honeyBoxCol7" node="0>5|6" />
+        <i3dMapping id="honeyBoxCol8" node="0>5|7" />
+    </i3dMappings>
+</vehicle>

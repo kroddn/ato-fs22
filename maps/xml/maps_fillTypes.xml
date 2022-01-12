@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../shared/xml/schema/fillTypes.xsd">
+    <fillTypeConverters>
+        <fillTypeConverter name="TEDDER">
+            <converter from="GRASS_WINDROW"        to="DRYGRASS_WINDROW" factor="1.0" />
+            <converter from="DRYGRASS_WINDROW"     to="DRYGRASS_WINDROW" factor="1.0" />
+            <converter from="STRAW"                to="STRAW"            factor="1.0" />
+        </fillTypeConverter>
+        <fillTypeConverter name="SUGARBEET_CUTTER">
+            <converter from="SUGARBEET"            to="SUGARBEET_CUT"    factor="1.0" />
+        </fillTypeConverter>
+    </fillTypeConverters>
+
+    <fillTypes>
+		 <fillType name="ASPHALT" title="Asphalt" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.05" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_asphalt.png" />
+            <textures   diffuse ="maps/fillPlanesTP/fruit_tp_ground_texture/asphalt_diffuse.dds"
+                        normal  ="maps/fillPlanesTP/fruit_tp_ground_texture/asphalt_normal.dds"
+                        specular="$data/fillPlanes/stone_specular.png"
+                        distance="maps/fillPlanesTP/fruit_tp_ground_texture/asphaltDistance_diffuse.dds" />
+        </fillType>
+		<fillType name="COAL" title="Coal" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.05" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_coal.png" />
+            <textures   diffuse ="maps/fillPlanesTP/fruit_tp_ground_texture/coal_diffuse.dds"
+                        normal  ="maps/fillPlanesTP/fruit_tp_ground_texture/asphalt_normal.dds"
+                        specular="$data/fillPlanes/stone_specular.png"
+                        distance="maps/fillPlanesTP/fruit_tp_ground_texture/asphaltDistance_diffuse.dds" />
+        </fillType>
+		<fillType name="TAILINGS" title="Tailings" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.05" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_ballast.png" />
+            <textures   diffuse ="maps/fillPlanesTP/fruit_tp_ground_texture/ballast_diffuse.dds"
+                        normal  ="maps/fillPlanesTP/fruit_tp_ground_texture/ballast_normal.dds"
+                        specular="$data/fillPlanes/stone_specular.png"
+                        distance="maps/fillPlanesTP/fruit_tp_ground_texture/ballastDistance_diffuse.dds" />
+        </fillType>
+		<fillType name="CONCRETE" title="Concrete" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.05" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_concrete.png" />
+            <textures   diffuse ="maps/fillPlanesTP/fruit_tp_ground_texture/concrete_diffuse.dds"
+                        normal  ="maps/fillPlanesTP/fruit_tp_ground_texture/concrete_normal.dds"
+                        specular="$data/fillPlanes/stone_specular.png"
+                        distance="maps/fillPlanesTP/fruit_tp_ground_texture/concreteDistance_diffuse.dds" />
+        </fillType>
+		<fillType name="LIMESTONE" title="Limestone" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.05" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_cracked.png" />
+            <textures   diffuse ="maps/fillPlanesTP/fruit_tp_ground_texture/cracked_diffuse.dds"
+                        normal  ="maps/fillPlanesTP/fruit_tp_ground_texture/cracked_normal.dds"
+                        specular="$data/fillPlanes/stone_specular.png"
+                        distance="maps/fillPlanesTP/fruit_tp_ground_texture/crackedDistance_diffuse.dds" />
+        </fillType>	
+		<fillType name="DIRT" title="Dirt" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.05" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_dirt.png" />
+            <textures   diffuse ="maps/fillPlanesTP/fruit_tp_ground_texture/dirt_diffuse.dds"
+                        normal  ="maps/fillPlanesTP/fruit_tp_ground_texture/dirt_normal.dds"
+                        specular="$data/fillPlanes/stone_specular.png"
+                        distance="maps/fillPlanesTP/fruit_tp_ground_texture/dirtDistance_diffuse.dds" />
+        </fillType>	
+		<fillType name="GRAVEL" title="Gravel" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.05" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_gravel.png" />
+            <textures   diffuse ="maps/fillPlanesTP/fruit_tp_ground_texture/gravel_diffuse.dds"
+                        normal  ="maps/fillPlanesTP/fruit_tp_ground_texture/gravel_normal.dds"
+                        specular="$data/fillPlanes/stone_specular.png"
+                        distance="maps/fillPlanesTP/fruit_tp_ground_texture/gravelDistance_diffuse.dds" />
+        </fillType>	
+		<fillType name="SAND" title="Sand" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.05" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_sand.png" />
+            <textures   diffuse ="maps/fillPlanesTP/fruit_tp_ground_texture/sand_diffuse.dds"
+                        normal  ="maps/fillPlanesTP/fruit_tp_ground_texture/sand_normal.dds"
+                        specular="$data/fillPlanes/stone_specular.png"
+                        distance="maps/fillPlanesTP/fruit_tp_ground_texture/sandDistance_diffuse.dds" />
+        </fillType>		
+		<fillType name="IRON" title="Iron" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.05" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_iron.png" />
+            <textures   diffuse ="maps/fillPlanesTP/fruit_tp_ground_texture/iron_diffuse.dds"
+                        normal  ="maps/fillPlanesTP/fruit_tp_ground_texture/iron_normal.dds"
+                        specular="$data/fillPlanes/stone_specular.png"
+                        distance="maps/fillPlanesTP/fruit_tp_ground_texture/ironDistance_diffuse.dds" />
+        </fillType>		
+		<fillType name="PAYDIRT" title="Pay Dirt" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter=".3" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.05" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_paydirt.png" />
+            <textures   diffuse ="maps/fillPlanesTP/fruit_tp_ground_texture/payDirt_diffuse.dds"
+                        normal  ="maps/fillPlanesTP/fruit_tp_ground_texture/payDirt_normal.dds"
+                        specular="$data/fillPlanes/stone_specular.png"
+                        distance="maps/fillPlanesTP/fruit_tp_ground_texture/payDirtDistance_diffuse.dds" />
+        </fillType>		
+        <fillType name="CEMENT" title="Cement" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.05" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_cement.png" />
+            <textures   diffuse ="maps/fillPlanesTP/fruit_tp_ground_texture/cement_diffuse.dds"
+                        normal  ="maps/fillPlanesTP/fruit_tp_ground_texture/cement_normal.dds"
+                        specular="$data/fillPlanes/stone_specular.png"
+                        distance="maps/fillPlanesTP/fruit_tp_ground_texture/cementDistance_diffuse.dds" />
+        </fillType>	
+        <fillType name="RIVERSAND" title="Riversand" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.05" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_riversand.png" />
+            <textures   diffuse ="maps/fillPlanesTP/fruit_tp_ground_texture/riversand_diffuse.dds"
+                        normal  ="maps/fillPlanesTP/fruit_tp_ground_texture/riversand_normal.dds"
+                        specular="$data/fillPlanes/stone_specular.png"
+                        distance="maps/fillPlanesTP/fruit_tp_ground_texture/riversandDistance_diffuse.dds" />
+        </fillType>		
+        <fillType name="RIVERSANDP" title="Riversandp" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.05" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_riversandp.png" />
+            <textures   diffuse ="maps/fillPlanesTP/fruit_tp_ground_texture/riversandp_diffuse.dds"
+                        normal  ="maps/fillPlanesTP/fruit_tp_ground_texture/riversandp_normal.dds"
+                        specular="$data/fillPlanes/stone_specular.png"
+                        distance="maps/fillPlanesTP/fruit_tp_ground_texture/riversandpDistance_diffuse.dds" />
+        </fillType>	
+        <fillType name="RUBBER" title="Rubber" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.05" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_rubber.png" />
+            <textures   diffuse ="maps/fillPlanesTP/fruit_tp_ground_texture/rubber_diffuse.dds"
+                        normal  ="maps/fillPlanesTP/fruit_tp_ground_texture/rubber_normal.dds"
+                        specular="$data/fillPlanes/stone_specular.png"
+                        distance="maps/fillPlanesTP/fruit_tp_ground_texture/rubberDistance_diffuse.dds" />
+        </fillType>		
+        <fillType name="TIRES" title="Tires" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.05" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_tires.png" />
+            <textures   diffuse ="maps/fillPlanesTP/fruit_tp_ground_texture/tires_diffuse.dds"
+                        normal  ="maps/fillPlanesTP/fruit_tp_ground_texture/tires_normal.dds"
+                        specular="$data/fillPlanes/stone_specular.png"
+                        distance="maps/fillPlanesTP/fruit_tp_ground_texture/tiresDistance_diffuse.dds" />
+        </fillType>		
+        <fillType name="TAR" title="Tar" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.05" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_tar.png" />
+            </fillType>	
+        <fillType name="STONEPOWDER" title="Stone Powder" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.05" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_stonepowder.png" />
+            <textures   diffuse ="maps/fillPlanesTP/fruit_tp_ground_texture/stonepowder_diffuse.dds"
+                        normal  ="maps/fillPlanesTP/fruit_tp_ground_texture/stonepowder_normal.dds"
+                        specular="$data/fillPlanes/stone_specular.png"
+                        distance="maps/fillPlanesTP/fruit_tp_ground_texture/stonepowderDistance_diffuse.dds" />
+        </fillType>	
+        <fillType name="STEEL" title="Steel" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.05" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_steel.png" />
+			<pallet     filename="$data/objects/pallets/bakeryBoxPallet/bakeryBoxPallet.xml" />
+        </fillType>		
+        <fillType name="GOLD" title="Gold" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter=".25" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="1.5" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_gold.png" />
+			 <pallet     filename="maps/pallets/goldPallet/goldPallet.xml" />
+        </fillType>	
+        <fillType name="PEASTONE" title="Pea Stone" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.05" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_gardenstones.png" />
+			<textures	diffuse ="maps/fillPlanesTP/fruit_tp_ground_texture/ballast_diffuse.dds"
+                        normal  ="maps/fillPlanesTP/fruit_tp_ground_texture/ballast_normal.dds"
+                        specular="$data/fillPlanes/stone_specular.png"
+                        distance="maps/fillPlanesTP/fruit_tp_ground_texture/ballastDistance_diffuse.dds" />
+        </fillType>	
+        <fillType name="BRICKS" title="Bricks" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.05" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_bricks.png" />
+			 <pallet     filename="$data/objects/pallets/bakeryBoxPallet/bakeryBoxPallet.xml" />
+        </fillType>		
+		<fillType name="LITHIUMORE" title="Lithium Ore" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.05" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_lithiumore.png" />
+            <textures   diffuse ="maps/fillPlanesTP/fruit_tp_ground_texture/lithiumore_diffuse.dds"
+                        normal  ="maps/fillPlanesTP/fruit_tp_ground_texture/lithiumore_normal.dds"
+                        specular="$data/fillPlanes/stone_specular.png"
+                        distance="maps/fillPlanesTP/fruit_tp_ground_texture/lithiumoreDistance_diffuse.dds" />
+        </fillType>	
+		<fillType name="CONCENTRATE" title="Concentrate" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter=".15" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.05" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_concentrate.png" />
+			 <pallet     filename="maps/pallets/concentratePallet/concentratePallet.xml" />
+        </fillType>		
+		<fillType name="CRUDEOIL" title="Crude Oil" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.05" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_crudeoil.png" />
+        </fillType>
+		<fillType name="STREAMPAY" title="Stream Pay" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter=".3" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.1" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_streampay.png" />
+            <textures   diffuse ="maps/fillPlanesTP/fruit_tp_ground_texture/payDirt_diffuse.dds"
+                        normal  ="maps/fillPlanesTP/fruit_tp_ground_texture/payDirt_normal.dds"
+                        specular="$data/fillPlanes/stone_specular.png"
+                        distance="maps/fillPlanesTP/fruit_tp_ground_texture/payDirtDistance_diffuse.dds" />
+        </fillType>	
+		<fillType name="GOLDBAR" title="Gold Bars" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter=".3" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="2.5" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_goldbar.png" />
+			 <pallet     filename="maps/pallets/goldBarPallet/goldBarPallet.xml" />
+        </fillType>	
+		<fillType name="CLAY" title="Clay" showOnPriceTable="true" achievementName="DeliveryStones" unitShort="$l10n_unit_literShort">
+            <physics massPerLiter="1" maxPhysicalSurfaceAngle="35" />
+            <economy pricePerLiter="0.05" />
+            <image      hud     ="maps/fillPlanesTP/fruit_tp_hud/hud_fill_clay.png" />
+            <textures   diffuse ="maps/fillPlanesTP/fruit_tp_ground_texture/clay_diffuse.dds"
+                        normal  ="maps/fillPlanesTP/fruit_tp_ground_texture/clay_normal.dds"
+                        specular="$data/fillPlanes/stone_specular.png"
+                        distance="maps/fillPlanesTP/fruit_tp_ground_texture/clayDistance_diffuse.dds" />
+        </fillType>	
+		
+    </fillTypes>
+
+    <fillTypeCategories>
+        <fillTypeCategory name="BULK" >ASPHALT TAILINGS CONCRETE LIMESTONE DIRT GRAVEL SAND COAL IRON PAYDIRT CEMENT RIVERSAND RIVERSANDP TIRES TAR RUBBER STONEPOWDER LITHIUMORE CRUDEOIL CLAY PEASTONE STREAMPAY</fillTypeCategory>
+        <fillTypeCategory name="LIQUID" >TAR CRUDEOIL</fillTypeCategory>
+        <fillTypeCategory name="PIECE" ></fillTypeCategory>
+        <fillTypeCategory name="WINDROW" ></fillTypeCategory>
+        <fillTypeCategory name="COMBINE" ></fillTypeCategory>
+        <fillTypeCategory name="SPRAYER" ></fillTypeCategory>
+        <fillTypeCategory name="SPREADER" ></fillTypeCategory>
+        <fillTypeCategory name="MIXERWAGON" ></fillTypeCategory>
+        <fillTypeCategory name="AUGERWAGON" ></fillTypeCategory>
+        <fillTypeCategory name="FORAGEWAGON" ></fillTypeCategory>
+        <fillTypeCategory name="SILAGETRAILER" ></fillTypeCategory>
+        <fillTypeCategory name="TRAINWAGON" >ASPHALT TAILINGS CONCRETE LIMESTONE DIRT GRAVEL SAND COAL IRON PAYDIRT CEMENT RIVERSAND RIVERSANDP TIRES RUBBER TAR STONEPOWDER LITHIUMORE CRUDEOIL CLAY PEASTONE STREAMPAY</fillTypeCategory>
+        <fillTypeCategory name="FORAGEHARVESTER" ></fillTypeCategory>
+        <fillTypeCategory name="SLURRYTANK" ></fillTypeCategory>
+        <fillTypeCategory name="MANURESPREADER" ></fillTypeCategory>
+        <fillTypeCategory name="FORK" ></fillTypeCategory>
+        <fillTypeCategory name="SHOVEL" >ASPHALT TAILINGS CONCRETE LIMESTONE DIRT GRAVEL SAND COAL IRON PAYDIRT CEMENT RIVERSAND RIVERSANDP TIRES RUBBER TAR STONEPOWDER LITHIUMORE CLAY PEASTONE STREAMPAY</fillTypeCategory>
+        <fillTypeCategory name="ANIMAL" ></fillTypeCategory>
+        <fillTypeCategory name="HORSE" ></fillTypeCategory>
+        <fillTypeCategory name="FARMSILO" ></fillTypeCategory>
+        <fillTypeCategory name="HAYLOFT" ></fillTypeCategory>
+        <fillTypeCategory name="LOADINGVEHICLE">ASPHALT TAILINGS CONCRETE LIMESTONE DIRT GRAVEL SAND COAL IRON PAYDIRT CEMENT RIVERSAND RIVERSANDP TIRES RUBBER TAR STONEPOWDER LITHIUMORE CRUDEOIL CLAY PEASTONE STREAMPAY</fillTypeCategory>
+        <fillTypeCategory name="PRODUCT"></fillTypeCategory>
+    </fillTypeCategories>
+
+    <fillTypeSounds>
+        <fillTypeSound isDefault="true">
+            <sound template="DEFAULT_SILO_FILL"/>
+        </fillTypeSound>
+
+        <fillTypeSound fillTypes="LIME">
+            <sound template="dustFill"/>
+        </fillTypeSound>
+
+        <fillTypeSound fillTypes="OAT SUNFLOWER">
+            <sound template="grainSmallFill"/>
+        </fillTypeSound>
+
+        <fillTypeSound fillTypes="WHEAT BARLEY CANOLA SOYBEAN SEEDS FERTILIZER">
+            <sound template="grainMediumFill"/>
+        </fillTypeSound>
+
+        <fillTypeSound fillTypes="MAIZE PIGFOOD">
+            <sound template="grainLargeFill"/>
+        </fillTypeSound>
+
+        <fillTypeSound fillTypes="GRAPE">
+            <sound template="grapeFill"/>
+        </fillTypeSound>
+
+        <fillTypeSound fillTypes="OLIVE">
+            <sound template="oliveFill"/>
+        </fillTypeSound>
+
+        <fillTypeSound fillTypes="WOOL GRASS_WINDROW DRYGRASS_WINDROW ROUNDBALE COTTON">
+            <sound template="grassFill"/>
+        </fillTypeSound>
+
+        <fillTypeSound fillTypes="ROADSALT">
+            <sound template="gravelFill"/>
+        </fillTypeSound>
+
+        <fillTypeSound fillTypes="MANURE">
+            <sound template="manureFill"/>
+        </fillTypeSound>
+
+        <fillTypeSound fillTypes="POTATO SUGARBEET">
+            <sound template="potatoFill"/>
+        </fillTypeSound>
+
+        <fillTypeSound fillTypes="STRAW">
+            <sound template="strawFill"/>
+        </fillTypeSound>
+
+        <fillTypeSound fillTypes="SUGARCANE">
+            <sound template="sugarcaneFill"/>
+        </fillTypeSound>
+
+        <fillTypeSound fillTypes="WOODCHIPS FORAGE CHAFF SILAGE">
+            <sound template="woodchipFill"/>
+        </fillTypeSound>
+
+        <fillTypeSound fillTypes="STONE">
+            <sound template="ROCKS_UNLOAD"/>
+        </fillTypeSound>
+
+        <fillTypeSound fillTypes="MILK WATER DIESEL DEF LIQUIDFERTILIZER HERBICIDE LIQUIDMANURE DIGESTATE SILAGE_ADDITIVE">
+            <sound template="DEFAULT_REFUEL_SOUND"/>
+        </fillTypeSound>
+    </fillTypeSounds>
+</map>
