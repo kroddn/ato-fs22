@@ -422,7 +422,7 @@
                 </variation>
             </object>
 
-            <object typeName="RAIN" class="WeatherObjectRain" weight="4">
+            <object typeName="RAIN" class="WeatherObjectRain" weight="2">
                 <rain filename="$data/sky/rain.i3d" />
 
                 <variation weight="1" minHours="1" maxHours="3" minTemperature="1" maxTemperature="8">
@@ -497,7 +497,7 @@
                 
             </object>
 
-            <object typeName="RAIN" class="WeatherObjectRain" weight="2">
+            <object typeName="RAIN" class="WeatherObjectRain" weight="1">
                 <rain filename="$data/sky/rain.i3d" />
 
                 <variation weight="1" minHours="1" maxHours="3" minTemperature="7" maxTemperature="17">
@@ -572,7 +572,7 @@
                 </variation>
             </object>
 
-            <object typeName="RAIN" class="WeatherObjectRain" weight="6">
+            <object typeName="RAIN" class="WeatherObjectRain" weight="3">
                 <rain filename="$data/sky/rain.i3d" />
 
                 <variation weight="1" minHours="1" maxHours="3" minTemperature="-1" maxTemperature="10">

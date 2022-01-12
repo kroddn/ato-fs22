@@ -3,25 +3,25 @@
 
     <group name="default" dialogText="$l10n_collectible_fr_all" dialogIntroText="$l10n_collectible_fr_intro" />
 
-    <collectible name="cartridge01" group="default" target="cartridge01" dialogText="$l10n_collectible_fr_cartridge01" moneyReward="50000" />
-    <collectible name="cartridge02" group="default" target="cartridge02" dialogText="$l10n_collectible_fr_cartridge02" moneyReward="50000" />
-    <collectible name="cartridge03" group="default" target="cartridge03" dialogText="$l10n_collectible_fr_cartridge03" moneyReward="50000" />
-    <collectible name="cartridge04" group="default" target="cartridge04" dialogText="$l10n_collectible_fr_cartridge04" moneyReward="50000" />
-    <collectible name="cartridge05" group="default" target="cartridge05" dialogText="$l10n_collectible_fr_cartridge05" moneyReward="50000" />
-    <collectible name="cartridge06" group="default" target="cartridge06" dialogText="$l10n_collectible_fr_cartridge06" moneyReward="50000" />
-    <collectible name="cartridge07" group="default" target="cartridge07" dialogText="$l10n_collectible_fr_cartridge07" moneyReward="50000" />
-    <collectible name="cartridge08" group="default" target="cartridge08" dialogText="$l10n_collectible_fr_cartridge08" moneyReward="1000000" />
-    <collectible name="cartridge09" group="default" target="cartridge09" dialogText="$l10n_collectible_fr_cartridge09" moneyReward="50000" />
-    <collectible name="cartridge10" group="default" target="cartridge10" dialogText="$l10n_collectible_fr_cartridge10" moneyReward="50000" />
-    <collectible name="cartridge11" group="default" target="cartridge11" dialogText="$l10n_collectible_fr_cartridge11" moneyReward="50000" />
-    <collectible name="cartridge12" group="default" target="cartridge12" dialogText="$l10n_collectible_fr_cartridge12" moneyReward="50000" />
-    <collectible name="cartridge13" group="default" target="cartridge13" dialogText="$l10n_collectible_fr_cartridge13" moneyReward="50000" />
-    <collectible name="cartridge14" group="default" target="cartridge14" dialogText="$l10n_collectible_fr_cartridge14" moneyReward="50000" />
-    <collectible name="cartridge15" group="default" target="cartridge15" dialogText="$l10n_collectible_fr_cartridge15" moneyReward="50000" />
-    <collectible name="cartridge16" group="default" target="cartridge16" dialogText="$l10n_collectible_fr_cartridge16" moneyReward="1000000" />
-    <collectible name="cartridge17" group="default" target="cartridge17" dialogText="$l10n_collectible_fr_cartridge17" moneyReward="50000" />
-    <collectible name="cartridge18" group="default" target="cartridge18" dialogText="$l10n_collectible_fr_cartridge18" moneyReward="50000" />
-    <collectible name="cartridge19" group="default" target="cartridge19" dialogText="$l10n_collectible_fr_cartridge19" moneyReward="50000" />
-    <collectible name="cartridge20" group="default" target="cartridge20" dialogText="$l10n_collectible_fr_cartridge20" moneyReward="50000000" />
+    <collectible name="cartridge01" group="default" target="cartridge01" dialogText="$l10n_collectible_fr_cartridge01" moneyReward="500" />
+    <collectible name="cartridge02" group="default" target="cartridge02" dialogText="$l10n_collectible_fr_cartridge02" moneyReward="500" />
+    <collectible name="cartridge03" group="default" target="cartridge03" dialogText="$l10n_collectible_fr_cartridge03" moneyReward="500" />
+    <collectible name="cartridge04" group="default" target="cartridge04" dialogText="$l10n_collectible_fr_cartridge04" moneyReward="500" />
+    <collectible name="cartridge05" group="default" target="cartridge05" dialogText="$l10n_collectible_fr_cartridge05" moneyReward="500" />
+    <collectible name="cartridge06" group="default" target="cartridge06" dialogText="$l10n_collectible_fr_cartridge06" moneyReward="500" />
+    <collectible name="cartridge07" group="default" target="cartridge07" dialogText="$l10n_collectible_fr_cartridge07" moneyReward="500" />
+    <collectible name="cartridge08" group="default" target="cartridge08" dialogText="$l10n_collectible_fr_cartridge08" moneyReward="503" />
+    <collectible name="cartridge09" group="default" target="cartridge09" dialogText="$l10n_collectible_fr_cartridge09" moneyReward="500" />
+    <collectible name="cartridge10" group="default" target="cartridge10" dialogText="$l10n_collectible_fr_cartridge10" moneyReward="500" />
+    <collectible name="cartridge11" group="default" target="cartridge11" dialogText="$l10n_collectible_fr_cartridge11" moneyReward="500" />
+    <collectible name="cartridge12" group="default" target="cartridge12" dialogText="$l10n_collectible_fr_cartridge12" moneyReward="500" />
+    <collectible name="cartridge13" group="default" target="cartridge13" dialogText="$l10n_collectible_fr_cartridge13" moneyReward="500" />
+    <collectible name="cartridge14" group="default" target="cartridge14" dialogText="$l10n_collectible_fr_cartridge14" moneyReward="500" />
+    <collectible name="cartridge15" group="default" target="cartridge15" dialogText="$l10n_collectible_fr_cartridge15" moneyReward="500" />
+    <collectible name="cartridge16" group="default" target="cartridge16" dialogText="$l10n_collectible_fr_cartridge16" moneyReward="501" />
+    <collectible name="cartridge17" group="default" target="cartridge17" dialogText="$l10n_collectible_fr_cartridge17" moneyReward="500" />
+    <collectible name="cartridge18" group="default" target="cartridge18" dialogText="$l10n_collectible_fr_cartridge18" moneyReward="500" />
+    <collectible name="cartridge19" group="default" target="cartridge19" dialogText="$l10n_collectible_fr_cartridge19" moneyReward="500" />
+    <collectible name="cartridge20" group="default" target="cartridge20" dialogText="$l10n_collectible_fr_cartridge20" moneyReward="502" />
 
 </collectibles>

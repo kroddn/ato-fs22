@@ -3,7 +3,7 @@
     <storeData>
         <name>Cement Factory</name>
         <image>maps/placeables/concreteFactory/store.png</image>
-        <price>100000</price>
+        <price>500000</price>
 		<canBeSold>true</canBeSold>
         <showInStore>true</showInStore>
         <lifetime>1000</lifetime>

@@ -3,7 +3,7 @@
     <storeData>
         <name>Gold Wash Room</name>
         <image>maps/placeables/goldWashRoom/store_goldWashRoom.png</image>
-        <price>50000</price>
+        <price>150000</price>
 		<canBeSold>true</canBeSold>
         <showInStore>true</showInStore>
         <lifetime>1000</lifetime>

@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <modDesc descVersion="60">
-    <author>Honor</author>
-    <version>1.0.0.0</version>
+    <author>Honor kroddn konk</author>
+    <version>1.0.0.1</version>
     <title>
-        <en>Yukon Valley</en>
-        <de>Yukon Valley</de>
+        <en>Yukon Valley Survival</en>
+        <de>Yukon Valley Survival</de>
     </title>
     <description>
         <en><![CDATA[My Mod Description]]></en>
@@ -15,12 +15,12 @@
     <maps>
         <map id="SampleModMap" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="maps/xml/map.xml" defaultVehiclesXMLFilename="maps/xml/vehicles.xml" defaultPlaceablesXMLFilename="maps/xml/placeables.xml" defaultItemsXMLFilename="maps/xml/items.xml">
             <title>
-                <en>Yukon Valley</en>
-                <de>Yukon Valley</de>
+                <en>Yukon Valley Survival</en>
+                <de>Yukon Valley Survival</de>
             </title>
             <description>
-                <en>Welcome To The Yukon Valley</en>
-                <de>Welcome To The Yukon Valley</de>
+                <en>Welcome To The Yukon Valley Survival</en>
+                <de>Welcome To The Yukon Valley Survival</de>
             </description>
             <iconFilename>preview.png</iconFilename>
         </map>

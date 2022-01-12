@@ -3,7 +3,7 @@
     <storeData>
         <name>Stream Sluice</name>
         <image>maps/placeables/streamSluice/store_streamSluice.png</image>
-        <price>10000</price>
+        <price>30000</price>
 		<canBeSold>true</canBeSold>
         <showInStore>true</showInStore>
         <lifetime>1000</lifetime>

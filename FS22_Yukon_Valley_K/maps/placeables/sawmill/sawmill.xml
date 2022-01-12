@@ -3,7 +3,7 @@
     <storeData>
         <name>$l10n_station_us_sawmill</name>
         <image>$data/store/store_empty.png</image>
-        <price>100000</price>
+        <price>1300000</price>
         <canBeSold>false</canBeSold>
         <showInStore>false</showInStore>
         <lifetime>1000</lifetime>
@@ -55,7 +55,7 @@
                     <input fillType="WOOD" amount="300" />
                 </inputs>
                 <outputs>
-                    <output fillType="BOARDS" amount="400" />
+                    <output fillType="BOARDS" amount="200" />
                     <output fillType="WOODCHIPS" amount="100" />
                 </outputs>
             </production>

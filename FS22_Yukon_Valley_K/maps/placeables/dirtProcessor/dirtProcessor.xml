@@ -3,7 +3,7 @@
     <storeData>
         <name>Dirt Processor</name>
         <image>maps/placeables/dirtProcessor/store.png</image>
-        <price>120000</price>
+        <price>300000</price>
 		<canBeSold>true</canBeSold>
         <showInStore>true</showInStore>
         <lifetime>1000</lifetime>

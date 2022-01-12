@@ -3,7 +3,7 @@
     <storeData>
         <name>Gold Smelter</name>
         <image>maps/placeables/goldSmelter/store_goldSmelter.png</image>
-        <price>50000</price>
+        <price>250000</price>
 		<canBeSold>true</canBeSold>
         <showInStore>true</showInStore>
         <lifetime>1000</lifetime>
